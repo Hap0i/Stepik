@@ -1,2 +1,2 @@
 # Stepik
-add readme
+Мои решения задач по курсу Selenium
