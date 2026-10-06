@@ -5,8 +5,8 @@ def test_product_page_should_have_add_to_basket_button(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
 
-    # Пауза 30 секунд, чтобы визуально проверить язык кнопки
-    time.sleep(30)
+    # Пауза 10 секунд, чтобы визуально проверить язык кнопки
+    time.sleep(10)
 
     # Ищем кнопку добавления в корзину
     button = browser.find_element(
